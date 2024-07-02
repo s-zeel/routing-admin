@@ -1,0 +1,194 @@
+.delivery-man-status-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+  
+    .delivery-man-status-items {
+      margin-top: 70px;
+      background-color: #f6f6f6;
+      padding: 20px 23px;
+  
+      .delivery-man-status-title {
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  
+        h2 {
+          font-size: 23px;
+          font-weight: 600;
+          line-height: 35px;
+          letter-spacing: -0.5px;
+          padding-left: 3px;
+        }
+  
+        button {
+          padding: 5px 43px 5px 11px;
+          color: #8f8f8f;
+          background-color: #fafafa;
+          border: none;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 21px;
+          text-align: center;
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+          border: 1px solid #dddddd;
+  
+          .drop-down-icon {
+            position: relative;
+  
+            svg {
+              position: absolute;
+              top: 7px;
+              right: -32px;
+              width: 9px;
+              height: 9px;
+            }
+          }
+        }
+      }
+  
+      .delivery-man-task-container {
+        background-color: #ffffff;
+        padding: 15px;
+        border-radius: 24px;
+  
+        .delivery-man-task-header {
+          background-color: #f6f6f6;
+          border-radius: 8px;
+          padding: 13px;
+          margin-bottom: 5px;
+  
+          ul {
+            margin: 0;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+  
+            li {
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 21px;
+              letter-spacing: 0.06em;
+              color: #7f7f7f;
+            }
+  
+            .delivery-man-task-label {
+              padding-right: 104px;
+            }
+            .delivery-man-task-id {
+              padding-right: 69px;
+            }
+  
+            .delivery-man-task {
+              padding-right: 40px;
+            }
+  
+            .delivery-man-task-email {
+              padding-right: 202px;
+            }
+  
+            .delivery-man-task-location {
+              padding-right: 134px;
+            }
+          }
+        }
+  
+        .delivery-man-task-listing-details {
+          padding: 0 10px;
+  
+          .delivery-man-task-listing {
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #8e8e8e;
+  
+            .delivery-man-task-flex {
+              display: flex;
+              align-items: center;
+  
+              .delivery-man-task-img-name {
+                display: flex;
+                align-items: center;
+                gap: 13px;
+  
+                img {
+                  width: 32px;
+                  height: 32px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                }
+  
+                h2 {
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  color: #484c52;
+                  max-width: 130px;
+                  min-width: 130px;
+                }
+              }
+  
+              span {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
+                color: #484c52;
+              }
+  
+              .delivery-man-task-listed-id {
+                margin-left: 20px;
+                max-width: 75px;
+                min-width: 75px;
+              }
+  
+              .delivery-man-task-listed {
+                margin-left: 10px;
+                max-width: 50px;
+                min-width: 50px;
+              }
+  
+              .delivery-man-task-listed-email {
+                margin-left: 19px;
+                max-width: 195px;
+                min-width: 195px;
+              }
+  
+  
+              .delivery-man-task-listed-location {
+                margin-left: 45px;
+                max-width: 160px;
+                min-width: 160px;
+              }
+  
+              .status-button {
+                margin-left: 30px;
+                display: flex;
+                align-items: center;
+  
+                button {
+                  border: none;
+                  border-radius: 6px;
+                  background-color: #88b50033;
+                  color: #88b500;
+                  padding: 6px 25px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  line-height: 21px;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+        
+    }
+  }
+  

@@ -1,0 +1,118 @@
+.login-main {
+  padding: 50px 0;
+  font-family: poppins;
+
+  .container-extra-sm {
+    max-width: 450px;
+    margin: 0 auto;
+
+    .main-grid-login {
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        color: #303030;
+      }
+
+      h3 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #8e8e8e;
+      }
+    }
+
+    .input-bar {
+      margin: 30px 0;
+
+      .input-box {
+        position: relative;
+        margin-bottom: 25px;
+
+        input {
+          width: 100%;
+          padding: 12px 0 12px 56px;
+          border-radius: 5px;
+          border: 1px solid #e8e8e8;
+          font-size: 14px;
+          outline: none;
+        }
+
+        .svg-icon {
+          position: absolute;
+          top: 12px;
+          left: 20px;
+          width: 22px;
+          height: 22px;
+
+          img {
+            max-width: 100%;
+          }
+        }
+        .eye-custom {
+          position: absolute;
+          top: 12px;
+          right: 21px;
+          width: 23px;
+          height: 23px;
+        }
+      }
+
+      .sm-text-login {
+        h4 {
+          text-align: right;
+          font-size: 14px;
+          line-height: 24px;
+          font-weight: 400;
+          text-decoration: underline;
+          color: #a4bd57;
+        }
+      }
+
+      .submit-button {
+        margin: 55px 0;
+
+        button {
+          width: 100%;
+          padding: 12px 0;
+          border-radius: 5px;
+          border: none;
+          background-color: #a4bd57;
+          color: #ffffff;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 27px;
+          box-shadow: 4px 8px 20px 0px #a4bd5766;
+        }
+      }
+
+      .sign-up-option {
+        margin: 135px 0 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+
+        h5 {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 27px;
+          color: #575757;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 27px;
+          font-weight: 600;
+          text-decoration: underline;
+          color: #a4bd57;
+        }
+      }
+    }
+  }
+}

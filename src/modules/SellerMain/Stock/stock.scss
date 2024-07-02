@@ -1,0 +1,166 @@
+.stock-main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+
+  .stock-items {
+    margin-top: 70px;
+    background-color: #f6f6f6;
+    padding: 20px 23px;
+
+    .stock-title {
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 35px;
+        letter-spacing: -0.5px;
+        padding-left: 3px;
+      }
+
+      button {
+        padding: 8px 24px;
+        color: #ffffff;
+        background-color: #a4bd57;
+        box-shadow: 4px 8px 20px 0px #a4bd5766;
+        border: none;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: center;
+        border-radius: 5px;
+      }
+    }
+
+    .stock-container {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 24px;
+
+      .stock-header {
+        background-color: #f6f6f6;
+        border-radius: 8px;
+        padding: 13px;
+
+        ul {
+          margin: 0;
+          list-style: none;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          li {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0.06em;
+            color: #7f7f7f;
+          }
+
+          .stock-image {
+            padding: 0 43px 0 65px;
+          }
+
+          .stock-name {
+            padding-right: 72px;
+          }
+
+          .stock-label {
+            padding-right: 52px;
+          }
+
+          .stock-date {
+            padding-right: 82px;
+          }
+
+          .stock-price {
+            padding-right: 45px;
+          }
+
+          .stock-description {
+            padding-right: 122px;
+          }
+        }
+      }
+
+      .stock-details {
+        padding: 0 10px;
+        .stock {
+          padding: 15px 0;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid #8e8e8e;
+
+          .alert-icon {
+            width: 27px;
+            height: 27px;
+            padding-left: 5px;
+          }
+
+          .stock-product-image {
+            width: 48px;
+            height: 44px;
+            border-radius: 4px;
+            object-fit: cover;
+            margin-left: 40px;
+          }
+
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+            text-align: left;
+            color: #484c52;
+          }
+
+          .stock-listed-name {
+            margin-left: 35px;
+            max-width: 70px;
+            min-width: 70px;
+          }
+
+          .stock-listed-stock {
+            margin-left: 40px;
+            max-width: 35px;
+            min-width: 35px;
+          }
+
+          .stock-listed-date {
+            margin-left: 60px;
+            max-width: 65px;
+            min-width: 65px;
+          }
+
+          .stock-listed-price {
+            margin-left: 49px;
+            max-width: 50px;
+            min-width: 50px;
+          }
+
+          .stock-listed-description {
+            margin-left: 85px;
+            max-width: 160px;
+            min-width: 160px;
+          }
+
+          button {
+            margin-left: 43px;
+            background: #88b50033;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 21px;
+            border: none;
+            border-radius: 6px;
+            color: #88b500;
+            padding: 4px 14px;
+          }
+        }
+      }
+    }
+  }
+}

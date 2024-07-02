@@ -1,0 +1,261 @@
+.sellers-main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+
+  .sellers-items {
+    margin-top: 70px;
+    background-color: #f6f6f6;
+    padding: 20px 23px;
+
+    .sellers-title {
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 35px;
+        letter-spacing: -0.5px;
+        padding-left: 3px;
+      }
+
+      button {
+        padding: 9px 23px;
+        color: #ffffff;
+        background-color: #a4bd57;
+        box-shadow: 4px 8px 20px 0px #a4bd5766;
+        border: none;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: center;
+        border-radius: 5px;
+      }
+    }
+
+    .sellers-container {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 24px;
+
+      .sellers-header {
+        background-color: #f6f6f6;
+        border-radius: 8px;
+        padding: 13px;
+        ul {
+          margin: 0;
+          list-style: none;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          li {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0.06em;
+            color: #7f7f7f;
+          }
+
+          .seller-title {
+            padding-right: 180px;
+          }
+
+          .seller-id {
+            padding-right: 110px;
+          }
+
+          .seller-location {
+            padding-right: 182px;
+          }
+        }
+      }
+
+      .seller-listing-details {
+        padding: 0 10px;
+
+        .sellers-listing {
+          padding: 15px 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 1px solid #8e8e8e;
+
+          .seller-flex {
+            display: flex;
+            align-items: center;
+
+            .seller-img-name {
+              display: flex;
+              align-items: center;
+              gap: 13px;
+
+              img {
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                object-fit: cover;
+              }
+
+              h2 {
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  color: #484c52;
+                  max-width: 130px;
+                  min-width: 130px;
+              }
+            }
+
+            span {
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              text-align: left;
+              color: #484c52;
+            }
+
+            .seller-id-listed {
+              margin-left: 57px;
+              max-width: 50px;
+              min-width: 50px;
+            }
+
+            .seller-listed-location {
+              margin-left: 75px;
+              max-width: 160px;
+              min-width: 160px;
+            }
+
+            .seller-listed-status {
+              margin-left: 87px;
+              max-width: 100px;
+              min-width: 100px;
+              color: #c80c00;
+            }
+          }
+
+          .edit-delete-icon {
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            .edit-icon {
+              cursor: pointer;
+              background: #88b50029;
+              display: flex;
+              align-items: center;
+              padding: 10px;
+              border-radius: 6px;
+
+              img {
+                width: 20px;
+                height: 20px;
+              }
+            }
+            .delete-icon {
+              cursor: pointer;
+              background: #c80c0029;
+              display: flex;
+              align-items: center;
+              padding: 10px;
+              border-radius: 6px;
+
+              img {
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .product-add-pop-up {
+      display: flex;
+      justify-content: center;
+      margin: 50px 0;
+
+      .container-product-pop-up {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 27px;
+        border-radius: 28px;
+        background-color: #ffffff;
+
+        img {
+          position: absolute;
+          top: 17px;
+          right: 19px;
+          width: 24px;
+          height: 24px;
+          cursor: pointer;
+        }
+
+        h2 {
+          text-align: center;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 42px;
+          letter-spacing: -0.3px;
+          padding-bottom: 2px;
+        }
+
+        .pop-up-add-products {
+          .pop-up-add-product-flex {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 15px 0;
+
+            input {
+              padding: 10px 60px 10px 15px;
+              border-radius: 5px;
+              border: 1px solid #e8e8e8;
+              outline: none;
+              font-size: 13px;
+            }
+          }
+
+          textarea {
+            padding: 10px 20px 10px 15px;
+            border-radius: 5px;
+            border: 1px solid #e8e8e8;
+            outline: none;
+            font-size: 13px;
+            min-width: 485px;
+            max-width: 485px;
+            max-height: 150px;
+          }
+
+          .wide-input-box {
+            margin-bottom: 15px;
+          }
+
+          .submit-button-product {
+            display: flex;
+            justify-content: center;
+            margin: 5px 0 10px 0;
+
+            button {
+              margin-top: 10px;
+              background-color: #a4bd57;
+              box-shadow: 4px 8px 20px 0px #a4bd5766;
+              padding: 12px 63px;
+              color: #ffffff;
+              border: none;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
